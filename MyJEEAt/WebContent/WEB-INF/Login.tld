@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.0" 
+	xmlns="http://java.sun.com/xml/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation=
+	"http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+>
+	<tlib-version>1.0</tlib-version>
+	<jsp-version>2.4</jsp-version>
+	<short-name>log</short-name>
+	<display-name>authentification par login et mot de passe</display-name>
+	<uri>http://hasni.fr/tld/Login</uri>
+	
+	<tag>
+	<!-- information concernant le tag Login.java -->
+		<name>Login</name>
+		<tagclass>dwwm.jee.Login</tagclass>
+		<bodycontent>JSP</bodycontent>
+	<!-- information concernant les attribut de la classe Login.java -->	
+		<attribute>
+			<name>login</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>pwd</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>action</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+	
+	
+	
+	
+	
+	
+	
+</taglib>

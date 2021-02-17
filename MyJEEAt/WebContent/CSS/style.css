@@ -1,0 +1,49 @@
+@charset "UTF-8";
+body h1{
+	color:red;
+	background-color:yellow;
+	text-align : center;
+}
+.fixed-top{
+	text-align : left;
+}
+body, p, legend, label, input {
+    font: normal 8pt verdana, helvetica, sans-serif;
+}
+
+fieldset {
+    padding: 10px;
+    width: 300;
+    border: 1px #0568CD solid;
+}
+
+legend {
+    font-weight: bold;
+    color: #0568CD;
+}
+
+form label {
+    float: left;
+    width: 200px;
+    margin: 3px 0px 0px 0px;
+}
+
+form input {
+    margin: 3px 3px 0px 0px;
+    border: 1px #999 solid;
+}
+
+form .erreur {
+    color: #900;
+}
+
+form .succes {
+    color: #090;
+}
+.aqua{
+	height: 50;
+	background-color: aqua;	
+}
+.centrer{
+	align: center;
+}
